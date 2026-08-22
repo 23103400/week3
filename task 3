@@ -1,0 +1,54 @@
+let a = 20;
+let b = 6;
+
+console.log("Addition:", a + b);
+console.log("Subtraction:", a - b);
+console.log("Multiplication:", a * b);
+console.log("Division:", a / b);
+console.log("Remainder:", a % b);
+console.log("Exponent:", a ** 2);
+
+let number = 10;
+
+number += 5;
+console.log("After += 5:", number);
+
+number -= 3;
+console.log("After -= 3:", number);
+
+number *= 2;
+console.log("After *= 2:", number);
+
+number /= 4;
+console.log("After /= 4:", number);
+
+let x = 10;
+let y = 20;
+
+console.log("x == y:", x == y);
+console.log("x != y:", x != y);
+console.log("x > y:", x > y);
+console.log("x < y:", x < y);
+console.log("x >= y:", x >= y);
+console.log("x <= y:", x <= y);
+
+let value1 = 10;
+let value2 = "10";
+
+console.log("value1 == value2:", value1 == value2);
+console.log("value1 === value2:", value1 === value2);
+
+let age = 21;
+let hasID = true;
+
+console.log("AND:", age >= 18 && hasID);
+console.log("OR:", age >= 18 || hasID);
+console.log("NOT:", !hasID);
+
+let count = 5;
+
+count++;
+console.log("After increment:", count);
+
+count--;
+console.log("After decrement:", count);
