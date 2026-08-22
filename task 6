@@ -1,0 +1,77 @@
+let principal = 5000;
+let rate = 5;
+let time = 2;
+
+let simpleInterest = (principal * rate * time) / 100;
+
+console.log("Simple Interest:", simpleInterest);
+
+
+let year = 2024;
+
+if (year % 400 === 0 || (year % 4 === 0 && year % 100 !== 0)) {
+    console.log(year + " is a leap year.");
+} else {
+    console.log(year + " is not a leap year.");
+}
+
+
+let number = 5;
+let factorial = 1;
+
+for (let i = 1; i <= number; i++) {
+    factorial *= i;
+}
+
+console.log("Factorial:", factorial);
+
+
+let sum = 0;
+
+for (let i = 1; i <= 20; i++) {
+    if (i % 2 === 0) {
+        sum += i;
+    }
+}
+
+console.log("Sum of even numbers:", sum);
+
+
+let marks = 76;
+
+if (marks >= 90) {
+    console.log("Excellent performance!");
+} else if (marks >= 75) {
+    console.log("Very good performance!");
+} else if (marks >= 60) {
+    console.log("Good performance!");
+} else if (marks >= 40) {
+    console.log("You passed.");
+} else {
+    console.log("You failed.");
+}
+
+
+for (let table = 2; table <= 5; table++) {
+    console.log("Table of", table);
+
+    for (let i = 1; i <= 10; i++) {
+        console.log(table + " x " + i + " = " + (table * i));
+    }
+}
+
+
+let num1 = 45;
+let num2 = 78;
+let num3 = 32;
+let largest;
+
+if (num1 >= num2 && num1 >= num3) {
+    largest = num1;
+} else if (num2 >= num1 && num2 >= num3) {
+    largest = num2;
+} else {
+    largest = num3;
+}
+
+console.log("Largest number:", largest);
