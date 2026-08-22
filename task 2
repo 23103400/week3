@@ -1,0 +1,44 @@
+let studentName;
+console.log("Student Name:", studentName);
+
+studentName = "Arpita";
+console.log("Updated Student Name:", studentName);
+
+const college = "ABC University";
+console.log("College:", college);
+
+let city = "Delhi";
+console.log("City:", city);
+console.log("Data Type:", typeof city);
+
+let age = 21;
+let marks = 85.5;
+
+console.log("Age:", age);
+console.log("Type of age:", typeof age);
+
+console.log("Marks:", marks);
+console.log("Type of marks:", typeof marks);
+
+let isStudent = true;
+let hasPassed = false;
+
+console.log("Is Student:", isStudent);
+console.log("Type:", typeof isStudent);
+
+console.log("Has Passed:", hasPassed);
+console.log("Type:", typeof hasPassed);
+
+let address;
+console.log("Address:", address);
+console.log("Type:", typeof address);
+
+let phoneNumber = null;
+console.log("Phone Number:", phoneNumber);
+console.log("Type:", typeof phoneNumber);
+
+console.log(typeof "Hello");
+console.log(typeof 100);
+console.log(typeof true);
+console.log(typeof undefined);
+console.log(typeof null);
