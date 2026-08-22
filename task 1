@@ -1,0 +1,23 @@
+// ==========================================
+// TASK 1: JAVASCRIPT BASICS
+// ==========================================
+
+
+let studentName = "Arpita";
+
+console.log("Hello, JavaScript!");
+console.log("My name is " + studentName);
+
+
+let age = 21;
+let course = "Computer Science";
+
+console.log("Age:", age);
+console.log("Course:", course);
+
+
+let number1 = 10;
+let number2 = 20;
+let sum = number1 + number2;
+
+console.log("Sum =", sum);
